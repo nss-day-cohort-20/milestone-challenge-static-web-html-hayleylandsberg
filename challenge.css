@@ -1,0 +1,62 @@
+/****************
+COLORS
+****************
+#5C0029
+#61304B
+#857C8D
+#94BFBE
+#ACF7C1
+*/
+
+h1 {
+	font-family: 'Cookie', cursive;
+	color: #E3B23C;
+	text-shadow: 5px 5px 2px #423E37;
+	font-size: 4em;
+	text-align: center;
+}
+
+nav {
+	background-color: #6E675F;
+	padding: 0;
+	margin : 0;
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+}
+
+nav li {
+	display: inline;
+	text-decoration: none;
+	margin: 5px;
+	margin-top: 0;
+}
+
+nav a {
+	color: #EDEBD7;
+}
+
+article {
+	font-family: 'Oxygen', sans-serif;
+	background-color: #EDEBD7;
+	margin: 10px;
+	text-align: center;
+}
+
+body {
+	background-color: #A39594;
+	color: #423E37;
+}
+
+footer {
+	color: #E3B23C;
+	background-color: #6E675F;
+	position: absolute;
+	right: 0;
+  	bottom: 0;
+  	left: 0;
+}
+
+footer a {
+	color: #E3B23C;
+}
