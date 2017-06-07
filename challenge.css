@@ -16,6 +16,15 @@ h1 {
 	text-align: center;
 }
 
+.cookiefont {
+	font-family: 'Cookie', cursive;
+	float: left;
+	font-size: 3em;
+	color: #E3B23C;
+	text-shadow: 5px 5px 2px #423E37;
+	font-size: 4em;
+}
+
 nav {
 	background-color: #6E675F;
 	padding: 0;
@@ -43,20 +52,29 @@ article {
 	text-align: center;
 }
 
+.images {
+	max-width: 100%;
+}
+
 body {
 	background-color: #A39594;
 	color: #423E37;
 }
 
-footer {
+#bottom {
 	color: #E3B23C;
 	background-color: #6E675F;
-	position: absolute;
-	right: 0;
-  	bottom: 0;
-  	left: 0;
+	clear: both;
 }
 
-footer a {
+#bottom a {
 	color: #E3B23C;
+}
+
+
+/*Add media query for when it gets larger*/
+
+/*#blog {
+	max-width: 60%;
+	float: right;
 }
