@@ -35,7 +35,7 @@ nav {
 }
 
 nav li {
-	display: inline;
+	display: block;
 	text-decoration: none;
 	margin: 5px;
 	margin-top: 0;
@@ -45,11 +45,19 @@ nav a {
 	color: #EDEBD7;
 }
 
+.right {
+	float: right;
+	margin-right: 20px;
+	font-size: 1.5em;
+	vertical-align: middle;
+}
+
 article {
 	font-family: 'Oxygen', sans-serif;
 	background-color: #EDEBD7;
 	margin: 10px;
 	text-align: center;
+	border: 2px solid #423E37;
 }
 
 .images {
@@ -71,10 +79,21 @@ body {
 	color: #E3B23C;
 }
 
+li {
+	list-style-type: none;
+}
 
+.blogpost {
+	border-top: 2px solid #423E37;
+	margin-top: 10px;
+}
+
+.headings {
+	margin: 10px;
+}
+
+.headingdrop {
+	background-color: #6E675F;
+}
 /*Add media query for when it gets larger*/
 
-/*#blog {
-	max-width: 60%;
-	float: right;
-}
