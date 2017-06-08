@@ -1,12 +1,25 @@
 /****************
-COLORS
+COLOR THEME
 ****************
-#5C0029
-#61304B
-#857C8D
-#94BFBE
-#ACF7C1
+Heading Font: #E3B23C
+Font & Text-Shadow: #423E37
+Background: #A39594
+Heading Links & Article Background: #EDEBD7
+Heading & Nav Background: #6E675F
 */
+
+
+/****************
+GENERAL
+****************/
+
+li {
+	list-style-type: none;
+}
+
+/****************
+HEADINGS
+****************/
 
 h1 {
 	font-family: 'Cookie', cursive;
@@ -14,6 +27,11 @@ h1 {
 	text-shadow: 5px 5px 2px #423E37;
 	font-size: 4em;
 	text-align: center;
+}
+
+#specialhead a{
+	text-decoration: none;
+	color: #E3B23C;
 }
 
 .cookiefont {
@@ -25,6 +43,23 @@ h1 {
 	font-size: 4em;
 }
 
+.headings {
+	margin: 10px;
+}
+
+.headingdrop {
+	background-color: #6E675F;
+}
+
+h2 {
+	font-family: 'Cookie', cursive;
+	font-size: 2em;
+	margin-bottom: 5px;
+}
+/****************
+NAV
+****************/
+
 nav {
 	background-color: #6E675F;
 	padding: 0;
@@ -35,7 +70,7 @@ nav {
 }
 
 nav li {
-	display: inline;
+	display: block;
 	text-decoration: none;
 	margin: 5px;
 	margin-top: 0;
@@ -45,11 +80,23 @@ nav a {
 	color: #EDEBD7;
 }
 
+.right {
+	float: right;
+	margin-right: 20px;
+	font-size: 1.5em;
+	vertical-align: middle;
+}
+
+/****************
+BODY
+****************/
+
 article {
 	font-family: 'Oxygen', sans-serif;
 	background-color: #EDEBD7;
 	margin: 10px;
 	text-align: center;
+	border: 2px solid #423E37;
 }
 
 .images {
@@ -61,20 +108,69 @@ body {
 	color: #423E37;
 }
 
+.blogpost {
+	border-top: 2px solid #423E37;
+	margin-top: 10px;
+}
+
+.blogmargin {
+	margin: 10px;
+}
+
+/****************
+FOOTER
+****************/
+
+.shadow {
+text-shadow: 5px 5px 2px #423E37;
+}
+
 #bottom {
 	color: #E3B23C;
 	background-color: #6E675F;
 	clear: both;
+	text-align: center;
 }
 
 #bottom a {
-	color: #E3B23C;
+	color: #EDEBD7;
+	font-weight: bold;
+	font-size: 1.1em;
 }
 
 
-/*Add media query for when it gets larger*/
-
-/*#blog {
-	max-width: 60%;
-	float: right;
+#bottom li {
+	display: inline;
+	margin: 10px;
 }
+
+#topbutton a {
+	font-size: .75em;
+}
+
+
+/****************
+MEDIA QUERIES
+****************/
+
+@media (min-width: 960px) {
+	#blog {
+		max-width: 67%;
+		float: right;
+	}
+
+	#placeholder1 {
+		max-width: 30%;
+	}
+
+	#placeholder2 {
+		max-width: 30%;
+	}
+
+	#sites {
+		max-width: 30%;
+	}
+
+	#blog {
+		margin-top: 0;
+	}
